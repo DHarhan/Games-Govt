@@ -20,11 +20,11 @@ async def on_message(message):
             command = message.content[3:].lower().strip()
             if command == 'fuf':
                 # Replace 'CHANNEL_ID_RESPOND' with the ID of the channel where you want to respond
-                respond_channel = bot.get_channel(CHANNEL_ID_RESPOND)
+                respond_channel = bot.get_channel(1210006762162356325)
                 await respond_channel.send(f"Please, tell me again, young Padawan, how chatGPT will not work?")
 
     # Let the bot process commands as well
     await bot.process_commands(message)
 
 # Run the bot with the token
-bot.run(TOKEN)
+bot.run(619222b0c4bafbe7424554732424f06fffc47a2f16a4b5a7a9afb1abf35ac77d)
